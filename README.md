@@ -33,7 +33,8 @@ args_fusion_dual.py # experimental parameters setting
 utils.py # refers to utility functions  
 train_hr.py # train FEE module cascaded with CET and MDEF modules  
 test.py  # test rppg and hr  
-train_rppg.sh # slurm train shell  
+train_rppg.sh # slurm train shell
+
 ```
 ## Highlights
 - This project proposes a novel information-enhanced network for HR estimation based on multimodal (e.g., RGB and NIR) sources.  In the network, context and modal difference information are sequentially enhanced from spatiotemporal and modal views for accurately describing HR-aware features, while maximum frequency information is enhanced for inhibiting heartbeat noise.
@@ -52,16 +53,16 @@ train_rppg.sh # slurm train shell
 !(https://github.com/xiazhaoqiang/IENet-HeartRateEst/results/HR_comparison.png)
 
 
-3. Fre_spectrum comparison
+4. Fre_spectrum comparison
 !(https://github.com/xiazhaoqiang/IENet-HeartRateEst/results/fre_spectrum.png)
 
 
-4. B-A comparison
+5. B-A comparison
 !(https://github.com/xiazhaoqiang/IENet-HeartRateEst/results/B-A.png)
 
 
 ## Citation
-If you find this code is useful for your research, please consider to cite our paper. Lili Liu, Zhaoqiang Xia, Xiaobiao Zhang, Jinye Peng, Xiaoyi Feng, Guoying Zhao, [Information-enhanced Network for Noncontact Heart Rate Estimation from Facial Videos](paper link),  IEEE Transactions on Circuits and Systems for Video Technology.
+If you find this code is useful for your research, please consider to cite our paper. Lili Liu, Zhaoqiang Xia, Xiaobiao Zhang, Jinye Peng, Xiaoyi Feng, Guoying Zhao, Information-enhanced Network for Noncontact Heart Rate Estimation from Facial Videos,  IEEE Transactions on Circuits and Systems for Video Technology.
 
 ```bash
 @article{Liu2023Information,
