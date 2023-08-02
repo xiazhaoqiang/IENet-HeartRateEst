@@ -43,7 +43,7 @@ def main():
                                                    
     # OBF                                            
        
-    SwinFuse_model.load_state_dict(torch.load("./model/Current_RGB+NIR.model"),False)                                           
+    SwinFuse_model.load_state_dict(torch.load("./model/ienet.model"),False)                                           
     gate_function = Relu()
 
     bpm_range = torch.arange(40, 180, dtype=torch.float).cuda()
