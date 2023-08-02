@@ -42,7 +42,7 @@ train_rppg.sh # slurm train shell
 - Novel modal difference enhanced fusion (MDEF) module is designed to acquire a fused rPPG signal,  which is taken as the input of the frequency- enhanced estimation (FEE) module to obtain the corresponding HR value. 
 
 ## Architecture of our remote heart rate estimation
-![flowchart](https://github.com/xiazhaoqiang/IENet-HeartRateEst/blob/8d77ec02f5193e803b9da7634f6d7b99f19015f4/results/flowchart.png)
+![flowchart](./results/flowchart.png)
 
 ## Comparison Examples
 1. rPPG signals comparison
