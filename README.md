@@ -43,16 +43,16 @@ test.py  # test rppg and hr; In order to test the trained model, the model can b
 
 ## Comparison Examples
 1. rPPG signals comparison
-!(./results/rPPG_comparison.png)
+![rPPG signals comparison](./results/rPPG_comparison.png)
 
 2. HR value comparison
-!(./results/HR_comparison.png)
+![HR value comparison](./results/HR_comparison.png)
 
-4. Fre_spectrum comparison
-!(.t/results/fre_spectrum.png)
+3. Fre_spectrum comparison
+![Fre_spectrum comparison](./results/fre_spectrum.png)
 
-5. B-A comparison
-!(./results/B-A.png)
+4. B-A comparison
+![B-A comparison](./results/B-A.png)
 
 ## Citation
 If you find this code is useful for your research, please consider to cite our paper. Lili Liu, Zhaoqiang Xia, Xiaobiao Zhang, Jinye Peng, Xiaoyi Feng, Guoying Zhao, Information-enhanced Network for Noncontact Heart Rate Estimation from Facial Videos,  IEEE Transactions on Circuits and Systems for Video Technology.
