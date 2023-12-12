@@ -39,20 +39,20 @@ test.py  # test rppg and hr; In order to test the trained model, the model can b
 - Novel modal difference enhanced fusion (MDEF) module is designed to acquire a fused rPPG signal,  which is taken as the input of the frequency- enhanced estimation (FEE) module to obtain the corresponding HR value. 
 
 ## Architecture of our remote heart rate estimation
-![The architecture of the model](https://github.com/xiazhaoqiang/IENet-HeartRateEst/results/flowchart.png)
+![The architecture of the model](./results/flowchart.png)
 
 ## Comparison Examples
 1. rPPG signals comparison
-!(https://github.com/xiazhaoqiang/IENet-HeartRateEst/results/rPPG_comparison.png)
+!(./results/rPPG_comparison.png)
 
 2. HR value comparison
-!(https://github.com/xiazhaoqiang/IENet-HeartRateEst/results/HR_comparison.png)
+!(./results/HR_comparison.png)
 
 4. Fre_spectrum comparison
-!(https://github.com/xiazhaoqiang/IENet-HeartRateEst/results/fre_spectrum.png)
+!(.t/results/fre_spectrum.png)
 
 5. B-A comparison
-!(https://github.com/xiazhaoqiang/IENet-HeartRateEst/results/B-A.png)
+!(./results/B-A.png)
 
 ## Citation
 If you find this code is useful for your research, please consider to cite our paper. Lili Liu, Zhaoqiang Xia, Xiaobiao Zhang, Jinye Peng, Xiaoyi Feng, Guoying Zhao, Information-enhanced Network for Noncontact Heart Rate Estimation from Facial Videos,  IEEE Transactions on Circuits and Systems for Video Technology.
